@@ -4,7 +4,7 @@ const path = require('path');
 const publicPath = path.join(__dirname, '/');
 
 var app = express();
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 3000;
 
 app.use('/', express.static(publicPath));
 
@@ -17,6 +17,4 @@ app.get('/projects', (req, res)=>{
 })
 
 
-app.listen(port, () => {
-  console.log('port is up and running at 8000');
-});
+app.listen(port);
