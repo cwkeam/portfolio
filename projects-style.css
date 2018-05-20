@@ -62,3 +62,29 @@ p.project-des{
 .link-button:hover{
 	background-color:rgba(100,0,250,0.7);
 }
+
+
+
+@media(max-width:769px){
+	h1.heading{
+		font-size:45px;
+	}
+	.contain-name{
+		width:100%;
+		margin-top:35%;
+	}
+	.row{
+		margin-bottom:0;
+	}
+	.col-sm-6{
+		margin-bottom:80px;
+	}
+}
+
+@media(max-width:500px){
+	.contain-name{
+		margin-top:55%;
+		width:100%;
+	}
+}
+
