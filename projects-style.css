@@ -2,9 +2,9 @@
 	width:100%;
 	height:85%;
 	background: url('milky-background.jpg');
-	background-attachment: fixed;
 	background-position: center;
 	background-size:cover;
+	background-repeat: no-repeat;
 	color:white;
 }
 .contain-name{

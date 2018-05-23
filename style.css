@@ -26,9 +26,9 @@ body{
 	width:100%;
 	height:85%;
 	background: url('isef-full.JPG');
-	background-attachment: fixed;
 	background-position: center;
 	background-size:cover;
+	background-repeat: no-repeat;
 	color:white;
 }
 
@@ -49,7 +49,7 @@ body{
 	position:absolute;
 	margin:30px;
 	z-index:100;
-	margin-top:70px;
+	margin-top:30px;
 }
 .home-link{
 	font-size:38px;
@@ -78,7 +78,7 @@ body{
 	margin:auto;
 	left:0;
 	right:0;
-	margin-top:230px;
+	margin-top:190px;
 }
 .contain-name > h1{
 	text-align: center;
@@ -93,7 +93,7 @@ body{
 .contain-sub-content{
 	background-color:rgba(100,100,150,0.95);
 	width:80%;
-	padding:20px;
+	padding:15px;
 	display:block;
 	margin:auto;
 }
@@ -359,11 +359,23 @@ body{
 
 
 @media(max-width:600px){
+	.home-link{
+		font-size:34px;
+	}
+	.nav-link{
+		font-size:20px;
+	}
 	.contain-top{
 		height:142%;
 	}
 	.tint{
 		height:142%;
+	}
+	.contain-name{
+		padding: 30px 10px;
+	}
+	.contain-name > h1{
+		font-size:25px;
 	}
 }
 @media(max-width:400px){
@@ -396,10 +408,10 @@ body{
 		margin-top:400px;
 	}
 	.sub-content-heading{
-		font-size:24px;
+		font-size:20px;
 	}
 	.contain-sub-content > ul{
-		font-size:17px;
+		font-size:14px;
 	}
 }
 
@@ -424,10 +436,10 @@ body{
 
 @media(max-height:600px){
 	.contain-top{
-		height:170%;
+		height:190%;
 	}
 	.tint{
-		height:170%;
+		height:190%;
 	}
 }
 
