@@ -6,6 +6,7 @@
 
 *{
 	transition: all 250ms ease-in-out;
+	box-sizing: border-box;
 }
 
 .row{
@@ -19,13 +20,11 @@ body{
 	font-family: 'Raleway', sans-serif;
 	width:100%;
 	height:100%;
+
 }
 
 
 .contain-top{
-	width:100%;
-	height:85%;
-	background: url('isef-full.JPG');
 	background-position: center;
 	background-size:cover;
 	background-repeat: no-repeat;
@@ -33,7 +32,6 @@ body{
 }
 
 .contain-bottom{
-	padding-top:100px;
 	padding-right: 100px;
 	padding-left:100px;
 	width:100%;
@@ -51,15 +49,72 @@ body{
 	z-index:100;
 	margin-top:30px;
 }
+
+.contain-rest-first{
+	  overflow: hidden;
+	  position:abso;ute
+
+}
+
+.contain-pic{
+	width:40%;
+	height:100%;
+	  overflow: hidden;
+	  float:left;
+
+	display:inline-block;
+}
+
+.contain-about{
+	height:100%;
+	width:60%;
+	overflow: hidden;
+	display:inline-block;
+	padding-right:100px;
+}
+
+.about-title{
+	padding:30px;
+	text-align:center;
+	color:black;
+
+	  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-bottom:100px;
+}
+.main-pic{
+	display:inline-block;
+
+	width:300px;
+	margin-left:20%;
+	margin-top:200px;
+
+
+}
+
+
+.project-title{
+	font-weight:800;
+}
+
+.horizontal-project-pic{
+	width:400px;
+}
+
+
+
+
+
 .home-link{
 	font-size:38px;
-	color:white;
+	color:black;
 	font-weight:600;
 	margin-right:40px;
 }
 .nav-link{
 	font-size:24px;
-	color:white;
+	color:black;
 	font-weight:600;
 	margin-right:20px;
 }
@@ -310,7 +365,6 @@ body{
 
 	.contain-bottom{
 		padding:10px;
-		padding-top:50px;
 	}
 
 	.contain-schedule{
