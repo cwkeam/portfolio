@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="bootstrap.min.css"/>
 		<link rel="stylesheet" href="style.css"/>
 		<link rel="stylesheet" href="media.css">
+
+
 	</head>
 	<body>
 		<div class="nav">
@@ -18,11 +20,13 @@
 		</div>
 
 			
-			<div class="contain-rest-first">
-				<div class="contain-pic">
-					<img class="main-pic" src="main_pic.JPG"/>
+			<div class="contain-rest-first row">
+				<div class="col-sm-5">
+					<div class="contain-pic">
+						<img class="main-pic" src="main_pic.JPG"/>
+					</div>
 				</div>
-				<div class="contain-about">
+				<div class="contain-about col-sm-7">
 					<h1 class="about-title">Hi! I'm a student at Williams College that likes working on deep learning models, full-stack software projects, and music.</h1>
 				</div>
 			</div>
@@ -49,11 +53,41 @@
 
 
 				<div class="contain-one-project">
+					<h2 class="project-title"><a href="http://vindmaps.com/">Vind Maps LLC</a></h2>
+					<div class="contain-vertical-images">
+
+						<img class="vertical-project-pic center-if-small" src="/assets/projects/vind/first_sc.png"/>
+						<img class="vertical-project-pic disap-if-small" src="/assets/projects/vind/map_sc.png"/>
+						<img class="vertical-project-pic disap-if-small" src="/assets/projects/vind/crime_sc.png"/>
+						<img class="vertical-project-pic disap-if-small" src="/assets/projects/vind/comments_sc.png"/>
+					</div>
+					<p>
+						NOTE: The images above are merely examples and do not imply anything about the safety of those particular locations.
+					</p>
+
+
+					<p class="project-desc">
+						The app and systems architecture for <a href="http://vindmaps.com">Vind</a> combined is by far the most complex software project I've tackled on independently. Other co-founders are Freddy Neto at Stanford University and Christopher Pramana at Northeastern University.
+					</p>
+					<p class="project-desc">
+						Vind is a crowdsourced safety app. People that have been to a location are able to leave a review with a rating about the safety of any given place: from districts, restaurants, to even small street corners. 
+					</p>
+					<p class="project-desc">
+						Creating this required extensive development in geospatial analysis precisely because users are allowed to rate literally every coordinate conceivable. I've documented the more significant developed pieces of the technology <a href="/assets/projects/vind/critc.pdf">here</a>. 
+					</p>
+					<p class="project-desc">
+						<span class="coding-languages"><span class="technologies">TECHNOLOGIES:</span> React Native, PostgreSQL (PostGIS), Node.js, Python3</span>
+					</p>
+				</div>
+
+
+
+				<div class="contain-one-project">
 					<h2 class="project-title"><a href="http://tensornow.com/">tensornow</a></h2>
 					<div class="contain-vertical-images">
-						<img class="vertical-project-pic" src="/assets/projects/tensornow/login.png"/>
-						<img class="vertical-project-pic" src="/assets/projects/tensornow/models.png"/>
-						<img class="vertical-project-pic" src="/assets/projects/tensornow/detail.png"/>
+						<img class="vertical-project-pic center-if-small" src="/assets/projects/tensornow/login.png"/>
+						<img class="vertical-project-pic disap-if-small" src="/assets/projects/tensornow/models.png"/>
+						<img class="vertical-project-pic disap-if-small" src="/assets/projects/tensornow/detail.png"/>
 					</div>
 					<p class="project-desc">
 						<a href="http://tensornow.com">tensornow</a> is an extremely lightweight solution for independent A.I. developers like myself that don't have access to high powered GPU machines. Because people like us make up for the lack of computing power with lengthier training time, often we leave a model to train and wait days or even weeks for it to finish. 
@@ -78,24 +112,54 @@
 				</h1>
 
 
-				<h2 style="font-size:30px; font-weight:800">Publication</h2>
+				<h2 class="misc-title" style="font-size:30px; font-weight:800">Publication</h2>
 
 				<ul style="font-size:20px; padding-left:50px">
-					<li><a href="https://arxiv.org/pdf/1802.05412.pdf">(arXiv) NtMalDetect: A Machine Learning Approach to Malware Detection Using Native API System Calls</a></li>
+					<li><a href="https://medium.com/machine-learning-intuition">Machine Learning Blog</a></li>
+
+					<li><a href="https://arxiv.org/abs/1802.05412">(arXiv) NtMalDetect: A Machine Learning Approach to Malware Detection Using Native API System Calls</a>
+					</li>
+
+					<ul>
+						<li>Advised and endorsed by <a href="https://scholar.google.com/citations?user=pP6yo9EAAAAJ&hl=en">Dr. Hyrum Anderson</a></li>
+					</ul>
+
 					
 				</ul>
 
-				<h2 style="font-size:30px; font-weight:800"><a href="/assets/resume.pdf">Resume</a></h2>
+
+				<h2 class="misc-title">The Internet mentioning me for random reasons</h2>
+					<ul class="misc-desc" style="padding-left:50px">
+
+						<li><a href="https://manifold.co/blog/hackathon-spotlight-my-chat-with-webhacks-winner-milky-505dea8ddc9f">"Hackathon spotlight: My chat with WebHacks winner Milky"</a>
+						</li>
+					</ul>
+
+				<h2 class="misc-title">Electronic Music Production (Artist Name: KEAM)</h2>
+					<ul class="misc-desc" style="padding-left:50px">
+						<li><a href="https://music.apple.com/us/album/autumn-nights-single/1315065566">Published music: Autumn Nights</a></li>
+
+						<li>Gotta plug that <a href="https://soundcloud.com/chan-woo-kim-148752061">Soundcloud</a>
+						</li>
+					</ul>
 
 
-				<h2 style="font-size:30px; font-weight:800">Awards & Distinctions</h2>
+				<h2 class="misc-title"><a href="/assets/resume.pdf">Resume</a></h2>
 
-				<ul style="font-size:20px; padding-left:50px">
-					<li>4th Place Grand Award for Systems Software at Intel ISEF</li>
-					<li>$1200 Special Award From China Association for Science and Technology (CAST)</li>
-					<li>$1000 Special Award From King Abdulaziz & His Companions Foundation for Giftedness and Creativity, "MAWHIBA” (Intelligent-Based Solutions in Cyber Security Category)</li>
-					<li>Yale Science and Engineering Award</li>	
-				</ul>
+
+				<h2 class="misc-title">Awards & Distinctions</h2>
+
+					<ul class="misc-desc" style="padding-left:50px">
+						<li>4th Place Grand Award for Systems Software at Intel ISEF</li>
+						<li>$1200 Special Award From China Association for Science and Technology (CAST)</li>
+						<li>$1000 Special Award From King Abdulaziz & His Companions Foundation for Giftedness and Creativity, "MAWHIBA” (Intelligent-Based Solutions in Cyber Security Category)</li>
+						<li>Yale Science and Engineering Award</li>	
+					</ul>
+
+				<h2 class="misc-title"><a href="/projects">Mini Projects</a> (Hackathon, etc.)</h2>
+
+				
+
 
 
 			</div>

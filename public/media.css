@@ -1,5 +1,8 @@
 
 @media(max-width:700px){
+	body{
+		padding:16px;
+	}
 	#animateStu{
 		height:82px;
 	}
@@ -14,4 +17,30 @@
 	#menuText{
 		display:none;
 	}
+	.project-title{
+		font-size:40px;
+	}
+	.project-desc{
+		font-size: 16px;
+	}
+	.misc-title{
+		font-size:26px;
+	}
+	.misc-desc{
+		font-size:16px;
+	}
+
+
+
+
+	.disap-if-small{
+		display:none;
+	}
+	.center-if-small{
+		display:block;
+		margin:auto;
+	}
+
+
 }
+

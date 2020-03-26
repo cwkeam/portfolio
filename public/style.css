@@ -51,13 +51,12 @@ body{
 
 .contain-rest-first{
 	  overflow: hidden;
-	  position:abso;ute
 
 }
 
 .contain-pic{
-	width:40%;
 	height:100%;
+	width:100%;
 	  overflow: hidden;
 	  float:left;
 
@@ -66,10 +65,8 @@ body{
 
 .contain-about{
 	height:100%;
-	width:60%;
 	overflow: hidden;
 	display:inline-block;
-	padding-right:100px;
 }
 
 .about-title{
@@ -80,13 +77,13 @@ body{
 	  position: relative;
   top: 50%;
   transform: translateY(-50%);
-  padding-bottom:100px;
+  padding-left:10%;
+  padding-right:10%;
 }
 .main-pic{
-		display:inline-block;
-
+	display:block;
 	width:300px;
-	margin-left:20%;
+	margin:auto;
 	margin-top:200px;
 
 
@@ -106,7 +103,7 @@ body{
 
 
 .project-desc{
-	font-size: 20px;
+	font-size: 18px;
 	padding-top:10px;
 }
 
@@ -121,18 +118,30 @@ body{
 }
 
 
+.misc-title {
+	font-size:30px; 
+	font-weight:800;
+}
+
+.misc-desc{
+	font-size:20px;
+}
+
 
 
 .contain-vertical-images{
 	display:block;
 	overflow:hidden;
+	padding-top:15px;
+	padding-bottom:20px;
 
 }
 
 .vertical-project-pic{
 	display:inline-block;
 	overflow:hidden;
-	width:300px;
+	width:220px;
+	margin-right:20px;
 }
 
 
